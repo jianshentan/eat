@@ -1,0 +1,135 @@
+.subscribe-splash {
+	background-color: #3616AB;
+	height: 220px;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+.subscribe-splash .sub {
+	font-size: 1.6em;
+}
+.subscribe-splash .main {
+	margin-top: 20px;
+	font-size: 3.6em;
+}
+
+.subscribe-how {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: white;
+}
+.subscribe-how .vertical-separator {
+	border-left: 1px solid #999;
+	height: 550px;
+}
+
+.subscribe-how .header-text {
+}
+
+.subscribe-steps {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.subscribe-steps .steps {
+	white-space: nowrap;
+	width: 300px;
+	height: 400px;
+	font-size: 1.2em;
+}
+
+.subscribe-steps .steps .step-header {
+	width: 220px;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 60px;
+	font-weight: 700;
+}
+
+.subscribe-steps .steps img {
+	width: 192px;
+	height: 264px;
+}
+
+.subscribe-steps .steps .step-desc {
+	width: 220px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	height: 120px;
+}
+
+.subscribe-email {
+	border-top: 1px solid #999;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.subscribe-email input {
+	width: 600px;
+	height: 40px;
+	border: 1 solid #666;
+	background-color: #ddd;
+}
+
+.subscribe-email .button {
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #FF7700;
+	color: white;
+	margin: 0 auto;
+	font-size: 1.6em;
+}
+
+.content-plan {
+	background-color: #bbb;
+	height: 640px;	
+}
+
+.plans {
+	text-align: center;
+	margin: 0 auto;
+	width: 800px !important;
+}
+
+.plans > .header {
+	padding-top: 40px;	
+	padding-bottom: 40px;	
+}
+
+.plan-selections {
+	display: flex;
+	justify-content: space-between;
+}
+
+.plan {
+	white-space: nowrap;
+	width: 260px;
+}
+
+.plan .header {
+	font-size: 1.2em;
+}
+
+.plan img {
+	width: 260px; height: 260px;
+}
+
+.plans .vertical-separator {
+	border-left: 1px solid #999;
+	height: 460px;
+}
+
+.plans .button {
+	width: 180px;
+	margin: 0 auto;
+	background-color: #FF7700;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	margin-top: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,118 @@
+.products-splash {
+	background-image: url( "../media/products_splash.png");
+	height: 260px;
+	color: white;
+	text-align: center;
+}
+.products-splash .main {
+	font-size: 3.6em;
+	height: 100%;
+	padding-top: 60px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.product-grid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-cell {
+	width: 300px;
+	height: 420px;
+	background-color: white;
+	white-space: nowrap;
+	display: inline-block;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	box-shadow: 3px 3px 3px #bbb;
+}
+
+.product-cell:hover {
+	box-shadow: 5px 5px 3px #999;
+}
+
+.product-cell.invisible {
+	opacity: 0;
+}
+
+.product-cell .header {
+	font-weight: 700;
+}
+.product-cell img {
+	margin: 12px auto;
+}
+.product-cell .button {
+	background-color: #999;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.2em;
+	margin: 0 auto;
+	cursor: pointer;
+	color: white;
+}
+.product-cell .subscription {
+	width: 220px;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 0.8em;
+	text-align: left;
+	word-wrap: word-wrap;
+}
+
+/* PRODUCT PAGE */
+
+.product {
+	background-color: white;	
+	padding-top: 60px;
+	padding-bottom: 60px;
+	height: 500px;
+}
+
+.product .left,
+.product .right {
+	display: inline-block;
+}
+
+.product .right {
+	float: right;
+	width: 320px;
+	height: 500px;
+	margin-right: 60px;
+	margin-left: 20px;
+}
+
+.product .left {
+	margin-left: 60px;
+	margin-right: 20px;
+	position: relative;
+	width: 530px;
+	height: 500px;
+}
+
+.product .left .header {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 3.8em;
+	font-weight: 700;
+}
+.product .left .description {
+	font-size: 1.4em;
+}
+
+.product .left .button {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: #ccc;
+	text-align: center;
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+.recs {
+	height: 40px;
+	line-height: 40px;
+}

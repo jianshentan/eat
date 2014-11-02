@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel='stylesheet' href='css/products.css' />
+  	<% include head %>
+  </head>
+  <body>
+  	<% include nav %>
+
+    <div class="content breadcrumbs header-text">
+      <br>
+      PRODUCTS / <%= name %>
+      <br><br>
+    </div>
+
+  	<div class="content product">
+  		<div class="right" style="background-image: url('<%= bg %>')">
+  			<img src="<%= image %>"/>
+  		</div>
+  		<div class="left">
+  			<div class="header"><%= name %></div>
+  			<div class="description"><%= description %></div>
+  			<div class="button header-text">VISIT OUR SUBSCRIPTION PLANS</div>
+  		</div>
+  	</div>
+
+    <br>
+
+    <div class="content recs header-text">
+    	Recommended For You
+    </div>
+
+    <div class="content">
+	    <div class="product-grid">
+	    <% if ( handle == "steak") { %>
+	    	<% include product-cell-broccoli %>
+	    	<% include product-cell-swordfish %>
+	    	<% include product-cell-springmix %>
+	    <% } %>
+	    <% if ( handle == "broccoli") { %>
+	        <% include product-cell-swordfish %>
+	    	<% include product-cell-springmix %>
+	    	<% include product-cell-bread %>
+	    <% } %>
+	    <% if ( handle == "swordfish") { %>
+	    	<% include product-cell-springmix %>
+	    	<% include product-cell-bread %>
+	    	<% include product-cell-steak%>
+	    <% } %>
+	    <% if ( handle == "springmix") { %>
+	    	<% include product-cell-bread %>
+	    	<% include product-cell-steak%>
+	    	<% include product-cell-broccoli %>
+	    <% } %>
+	    <% if ( handle == "bread") { %>
+	    	<% include product-cell-steak%>
+	    	<% include product-cell-broccoli %>
+	        <% include product-cell-swordfish %>
+	    <% } %>
+	    </div>
+    </div>
+
+    <br><br>
+
+  	<div class="content index-advertisement">
+  	</div>
+
+  	<br><br>
+
+  	<% include footer %>
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <link rel='stylesheet' href='css/products.css' />
+  	<% include head %>
+  </head>
+  <body>
+  	<% include nav %>
+
+    <div class="content products-splash power-text">
+      <div class="main">FOOD FOR THE <br> MODERN PERSON</div>
+    </div>
+
+    <div class="content breadcrumbs header-text">
+      <br>
+      PRODUCTS
+      <br><br>
+    </div>
+
+    <div class="content">
+      <div class="product-grid">
+        <% include product-cell-steak %>
+        <% include product-cell-broccoli %>
+        <% include product-cell-swordfish %>
+      </div>
+      <br><br><br>
+      <div class="product-grid">
+        <% include product-cell-springmix %>
+        <% include product-cell-bread %>
+        <div class="product-cell invisible"></div> 
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="content index-advertisement">
+    </div>
+
+    <br><br>
+
+  	<% include footer %>
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
